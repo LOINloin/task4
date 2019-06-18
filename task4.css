@@ -1,0 +1,82 @@
+
+	
+		.header{/*头部栏*/
+			width: 100%;
+			background: #68cdd5;
+			line-height:3.5em;
+		}
+		.header_l{
+			width: 4em;
+			
+			padding-left: 9px;
+			
+			text-align: left;
+			
+			float: left;
+		}
+		.header_m{
+			width: 100%;
+			text-align: center;
+			
+		}
+		.header_r{
+			width: 4em;
+			padding-right: 9px;
+			
+			text-align: right;
+			float: right;
+		}
+		.clearfloat{clear:both}
+
+		.middle_bar1{/*中部输入栏1*/
+			width: 100%;
+			margin-top:10px;
+			
+			background: white;
+
+		}
+		.middle_bar2{/*中部输入栏2*/
+			width: 100%;
+			margin-top:10px;
+			
+			background: white;
+		}
+		.middle_bar_img{
+			width: 4em;
+			height: 3.5em;
+		
+			float: left;
+		}
+		.vertical{
+			border-right: 1px solid #1458a4;
+			margin-top: 14px;
+			height: 25px;
+			float: left;
+			border-color: #eef0f4;
+		}
+		.middle_bar_txt{
+			width: 70%;
+			height: 3.5em;
+			padding-left: 0;
+			padding-top: 0;
+			
+			float: left;
+		}
+		.bottom{/*bottom*/
+			width: 100%;
+			color: white;
+			margin-top:10px; 
+			background-color:#68cdd5;
+			text-align: center;
+			line-height:4em;
+
+		}
+		.fgpwd{
+			height: 3em;
+			text-align: right;
+			font-size: 10px;
+			padding-right: 10px;
+			color: #67c4d1;
+			text-decoration:underline;
+		}
+	
