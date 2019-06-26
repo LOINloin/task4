@@ -4,91 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="task4.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scale=no"/>
 	<meta charset="UTF-8">
-	<title>task4</title>
-	
-	<style type="text/css">
-	
-		.header{/*头部栏*/
-			width: 100%;
-			background: #68cdd5;
-			line-height:3.5em;
-		}
-		.header_l{
-			width: 4em;
-			
-			padding-left: 9px;
-			
-			text-align: left;
-			
-			float: left;
-		}
-		.header_m{
-			width: 100%;
-			text-align: center;
-			
-		}
-		.header_r{
-			width: 4em;
-			padding-right: 9px;
-			
-			text-align: right;
-			float: right;
-		}
-		.clearfloat{clear:both}
-
-		.middle_bar1{/*中部输入栏1*/
-			width: 100%;
-			margin-top:10px;
-			
-			background: white;
-
-		}
-		.middle_bar2{/*中部输入栏2*/
-			width: 100%;
-			margin-top:10px;
-			
-			background: white;
-		}
-		.middle_bar_img{
-			width: 4em;
-			height: 3.5em;
-		
-			float: left;
-		}
-		.vertical{
-			border-right: 1px solid #1458a4;
-			margin-top: 14px;
-			height: 25px;
-			float: left;
-			border-color: #eef0f4;
-		}
-		.middle_bar_txt{
-			width: 70%;
-			height: 3.5em;
-			padding-left: 0;
-			padding-top: 0;
-			
-			float: left;
-		}
-		.bottom{/*bottom*/
-			width: 100%;
-			color: white;
-			margin-top:10px; 
-			background-color:#68cdd5;
-			text-align: center;
-			line-height:4em;
-
-		}
-		.fgpwd{
-			height: 3em;
-			text-align: right;
-			font-size: 10px;
-			padding-right: 10px;
-			color: #67c4d1;
-			text-decoration:underline;
-		}
-	
-	</style>										
+	<title>task4</title> 
+										
 </head>
 <body style="background-color: #eef0f4;font-size:62.5%;">
 	
@@ -103,14 +20,14 @@
 	<!--888888888888888888888888888-->
 	<div class="middle_bar1">
 		<div class="middle_bar_img" style="display: flex;
-  justify-content: center;
-  align-items: center;"  >
+  justify-content: center;		/*居中*/
+  align-items: center;"  ><!--垂直-->
 		<img src="images4/phone_03.png" style="max-height: 55%;max-width: 55%;">
 		
 		</div>
 		<div class="vertical"></div>
-		<div class="middle_bar_txt" style="text-align:left;">
-			<input type="text" maxlength="11" placeholder="请输入手机号" style="padding-left: 25px;border:0px;outline:none;line-height:3.5em;font-size: 14px;height:3.5em;">
+		<div class="middle_bar_txt" >
+			<input type="text" maxlength="16" placeholder="请输入手机号" >
 			
  		</div>
 		<div class="clearfloat"></div>
@@ -121,18 +38,15 @@
 			<img src="images4/lock_03.png" style="padding-left: 19px;padding-top: 20%; max-height: 55%;max-width: 55%;">
 		</div>
 		<div class="vertical"></div>
-		<div class="middle_bar_txt" style="text-align:left;">
-			<input type="password" placeholder="请输入密码" style="padding-left: 25px; font-size: 14px;border:0px;outline:none;line-height:3.5em;">
-
-			
+		<div class="middle_bar_txt" >
+			<input type="password" placeholder="请输入密码" >  
  		</div>
 		<div class="clearfloat"></div>
 	</div>
-	<!--888888888888888888888888888-->
-
-
+	<!--888888888888888888888888888--> 
 	<div class="bottom"><p style="letter-spacing:1em;">登录</p></div>
-	<div class="fgpwd"><p><a href="http://www.baidu.com"  target="view_window" style="color:#67c4d1">忘记密码</p></div>
+	<!--letter-spacing 属性增加或减少字符间的空白（字符间距）-->
+	<div class="fgpwd"><p><a href="http://www.baidu.com"  target="view_window" >忘记密码</p></div>
 	
 </body>
 </html>

@@ -1,5 +1,12 @@
+ 	body {
+		margin:0;
+		padding:0;
+	}
+	input{padding-left: 25px;width: 100%; 
 
-	
+		border:0px;outline:none;line-height:3em;
+		font-size: 14px;height:3em;}
+		
 		.header{/*头部栏*/
 			width: 100%;
 			background: #68cdd5;
@@ -44,9 +51,8 @@
 		.middle_bar_img{
 			width: 4em;
 			height: 3.5em;
-		
 			float: left;
-		}
+			}
 		.vertical{
 			border-right: 1px solid #1458a4;
 			margin-top: 14px;
@@ -57,9 +63,9 @@
 		.middle_bar_txt{
 			width: 70%;
 			height: 3.5em;
+			line-height: 3.5em;
 			padding-left: 0;
 			padding-top: 0;
-			
 			float: left;
 		}
 		.bottom{/*bottom*/
@@ -79,4 +85,6 @@
 			color: #67c4d1;
 			text-decoration:underline;
 		}
-	
+		a{
+			color: #67c4d1;
+		}
